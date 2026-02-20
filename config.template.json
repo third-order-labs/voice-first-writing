@@ -1,0 +1,14 @@
+{
+  "voice_observation_mode": "always-on",
+  "default_platform": null,
+  "directories": {
+    "drafts": "writings/drafts",
+    "ready": "writings/ready",
+    "published": "writings/published",
+    "posts": "writings/posts",
+    "posts_published": "writings/posts/published",
+    "planning": "planning",
+    "voice_guide": "writings/voice-guide.md",
+    "format_guides": "writings"
+  }
+}

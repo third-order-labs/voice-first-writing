@@ -1,0 +1,8 @@
+  {
+  "name": "voice-first-writing",
+  "version": "0.1.0",
+  "description": "A voice-first writing system that captures how you actually sound and produces content in your authentic voice. Includes deep and quick voice capture, collaborative drafting, platform-specific derivation, and a self-updating voice guide that sharpens with every session.",
+  "author": {
+    "name": "Ian Jones"
+  }
+}
