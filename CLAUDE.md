@@ -63,6 +63,8 @@ Key settings:
 
 **Articles**: `drafts/` → `ready/` → `published/`
 **Posts**: `posts/` → `posts/published/`
+**Takes**: `takes/` — status tracked in frontmatter, not by folder moves
+**Flywheel content**: written to `published/` at creation; the Status field carries workflow state
 
 Filename convention: `YYYY-MM-DD_short-title.md`
 
