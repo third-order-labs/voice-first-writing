@@ -14,7 +14,7 @@ Close out a working session with proper documentation.
 
 Check that these exist and handle gracefully if missing:
 - Voice guide (path from `config.json`, default: `writings/voice-guide.md`) — if missing, skip the voice guide check section. Note: "No voice guide found. Consider running `/setup` or `/quickstart` to create one."
-- Content backlog (path from `config.json`, default: `planning/content-backlog.md`) — if missing, skip the content backlog check. Note: "No content backlog found. New ideas from this session will be included in the session summary instead."
+- Content backlog (in the planning directory from `config.json`: `planning/content-backlog.md`) — if missing, skip the content backlog check. Note: "No content backlog found. New ideas from this session will be included in the session summary instead."
 - Planning directory (from `config.json`, default: `planning/`) — if missing, create it before writing the session summary.
 
 Also check `config.json` for the `voice_observation_mode` setting:
@@ -59,7 +59,7 @@ Review the conversation for:
 - New connections between existing threads
 - New observations worth capturing as raw material
 
-If found, add them to the content backlog (path from `config.json`, default: `planning/content-backlog.md`) in the appropriate section (new thread, existing thread observation, or evergreen post queue).
+If found, add them to the content backlog (in the planning directory from `config.json`: `planning/content-backlog.md`) in the appropriate section (new thread, existing thread observation, or evergreen post queue).
 
 ## Confirm
 

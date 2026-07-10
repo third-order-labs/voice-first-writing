@@ -179,7 +179,9 @@ The full rules live in the `writing-process` skill; `/flywheel` applies them aut
 ```
 voice-first-writing/
 ├── .claude-plugin/plugin.json
+├── .gitignore
 ├── CLAUDE.md
+├── LICENSE
 ├── README.md
 ├── config.template.json
 ├── agents/

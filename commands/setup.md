@@ -23,7 +23,7 @@ Gets a new user from zero to ready-to-draft in one session (or across a few sess
 
 ## Step 1: Create workspace and configure
 
-Read `config.template.json` to get the default directory structure. Create all directories listed under `directories` in the template.
+Read `config.template.json` to get the default directory structure. Create the workspace directories it defines: `writings/drafts`, `writings/ready`, `writings/published`, `writings/posts`, `writings/posts/published`, and `planning`. Note that two `directories` entries are NOT directories to create: `voice_guide` is a file path (the voice capture step writes it later) and `format_guides` names the parent directory format guides are written into. Don't `mkdir` those.
 
 Then prompt the user for preferences:
 
@@ -41,7 +41,7 @@ Write `config.json` to the project root with the user's choices and the default 
 Before proceeding, check what already exists:
 - Does the voice guide exist (path from `config.json`)? If yes, ask if they want to revise or skip.
 - Do any format guides exist (path from `config.json`)? Note which platforms are covered.
-- Does the content backlog exist (path from `config.json`, default: `planning/content-backlog.md`)?
+- Does the content backlog exist (in the planning directory from `config.json`: `planning/content-backlog.md`)?
 
 Report what's in place and what's missing.
 
@@ -79,7 +79,7 @@ Then scaffold three documents in the planning directory (paths from `config.json
 
 - **`planning/interest-map.md`** — sections: Currently Building (from area 1), Threads (from area 3), Search Fuel (terms the flywheel researches with), Thread Freshness (empty for now; the flywheel maintains it).
 - **`planning/platform-strategy.md`** — one section per platform with: Intent, Audience, Cadence, Register mix, Rules, plus a top-level Project Scan section listing scan directories and the NEVER-SCAN list with a note that it is absolute. This doc is the flywheel's contract.
-- **`planning/content-backlog.md`** — sections: Active Threads (seeded from area 3), Published Work (empty), In Progress (empty). If it already exists, leave it alone.
+- **`planning/content-backlog.md`** — sections: Active Threads (seeded from area 3), Evergreen Queue (empty — ideas that aren't time-sensitive), Published Work (empty), In Progress (empty). If it already exists, leave it alone.
 
 Finally, ask about publishing: "When the flywheel finishes a batch, do you want posts staged in a folder for you to publish manually, or pushed to a scheduling tool?" Manual staging is the default. If they use Typefully, set `publishing.target` to `"typefully"` in `config.json` and tell them to put `TYPEFULLY_API_KEY` and `TYPEFULLY_SOCIAL_SET_ID` in a `.env` file at the workspace root — credentials never go in `config.json`.
 

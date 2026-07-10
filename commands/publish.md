@@ -37,12 +37,12 @@ Proceed with whatever steps are possible. Publishing should never be blocked by 
 
 2. **Move the file**: Move from the ready directory to the published directory. Update the date prefix in the filename to the actual publish date if it changed. Update the Status in the metadata.
 
-3. **Update content backlog** (path from `config.json`, default: `planning/content-backlog.md`):
+3. **Update content backlog** (in the planning directory from `config.json`: `planning/content-backlog.md`):
    - Add the piece to the Published Work section under the correct platform
    - Format: `"Title" (YYYY-MM-DD) — brief description`
    - Note which threads it develops (reference the Active Threads by number)
 
-4. **Update content roadmap** (path from `config.json`, default: `planning/content-roadmap.md`):
+4. **Update content roadmap** (in the planning directory from `config.json`: `planning/content-roadmap.md`):
    - If this piece was on the roadmap or evergreen queue, mark it as published
    - Update status in the relevant table or wave section
 
@@ -69,7 +69,7 @@ Lighter weight. Supports bulk.
    - Update the date prefix in the filename to the publish date if it changed
    - Update the Status in the metadata to `posted`
 
-5. **Update content backlog** (path from `config.json`, default: `planning/content-backlog.md`):
+5. **Update content backlog** (in the planning directory from `config.json`: `planning/content-backlog.md`):
    - Add all published posts to the Published Work section under the correct platform
    - Format: `"Title" (YYYY-MM-DD) — derived from [source article]`
 
