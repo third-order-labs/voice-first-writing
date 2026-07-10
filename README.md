@@ -54,6 +54,10 @@ Shorter version (10-15 min). Gets a working voice guide from 5-7 questions. Good
 
 The main creative workflow. You riff on an idea, the AI pulls the strongest lines and structure, you confirm, and the AI drafts raw-first in your voice. Follows the 6-step writing process.
 
+### `/flywheel` — The Content Flywheel
+
+Generates a cycle's worth of platform posts from web research intersected with what you've actually been building. Reads your tinkering log, asks what's on your mind, scans your projects, researches the discourse, and drafts posts that pass through the portable-observation gate ("would this still be interesting if you stripped the project context?") and critical review. Your platform strategy doc — audience, cadence, register mix, never-scan list — is the contract; the flywheel is just the engine. Publishing integration (Typefully) is optional, bring-your-own-key.
+
 ### `/derive` — Article to Posts
 
 Derives 2-3 standalone platform posts from a finished article. Each post extracts one insight and stands on its own. Not a summary, not a promo.
