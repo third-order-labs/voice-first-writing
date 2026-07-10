@@ -6,7 +6,7 @@ A personal voice writing system designed to produce content that sounds like the
 
 1. The voice guide (path in `config.json` under `directories.voice_guide`) — How the user sounds. Read this before drafting anything.
 2. Any platform format guides (in the `directories.format_guides` directory) — Platform-specific format, structure, and derivation constraints. Read alongside voice guide when producing posts.
-3. The **writing-process** skill — The 5-step collaboration process and self-updating mechanism.
+3. The **writing-process** skill — The 6-step collaboration process and self-updating mechanism.
 4. `config.json` — User preferences: voice observation mode, default platform, directory paths.
 
 ## Tone
@@ -19,7 +19,8 @@ Default to concise and action-oriented for file edits and planning updates. But 
 2. AI pulls (strongest lines, real argument, natural structure, energy level)
 3. The user confirms or corrects
 4. AI drafts constrained by voice guide, the user's actual phrases, agreed energy level. First draft should be raw, not polished.
-5. The user reads it out loud. If it sounds wrong in their mouth, it gets cut.
+5. Critical review (`/critical-review`) — a stranger reads the draft cold and flags where it loses them. NOT voice compliance (that's `/review`). This catches what the collaborator can't because the collaborator is too close to the work.
+6. The user reads it out loud. If it sounds wrong in their mouth, it gets cut.
 
 Raw-first, always. A draft that sounds like the user talking at a bar is right. A draft that reads like a finished article is too polished.
 
@@ -77,7 +78,7 @@ Filename convention: `YYYY-MM-DD_short-title.md`
 
 This plugin includes two skills that commands reference:
 
-- **writing-process** — The 5-step methodology, raw-first philosophy, self-updating system. Referenced by `/draft`, `/resume`, `/review`, `/derive`.
+- **writing-process** — The 6-step methodology, raw-first philosophy, self-updating system. Referenced by `/draft`, `/resume`, `/review`, `/critical-review`, `/derive`.
 - **voice-observation** — How to read voice from typed text (signals, patterns, mental model building). Referenced by `/interview`, `/quickstart`, `/draft`, `/wrap`, `/review`.
 
 ## What this system produces

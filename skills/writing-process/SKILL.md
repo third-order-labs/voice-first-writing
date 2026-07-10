@@ -1,6 +1,6 @@
 ---
 name: writing-process
-description: The 5-step voice-first writing methodology — riff, pull, confirm, draft raw-first, read out loud. Includes the self-updating system for voice guides and process docs.
+description: The 6-step voice-first writing methodology — riff, pull, confirm, draft raw-first, critical review (stranger test), read out loud. Includes the self-updating system for voice guides and process docs.
 ---
 
 # Writing Process Skill
@@ -55,7 +55,21 @@ If the first draft reads like a finished article, it's probably too polished. If
 - Short sentences after long ones. Fragments are welcome. Uncertainty is welcome.
 - Err toward too-them, not too-clean. You can always polish. You can't easily un-polish.
 
-### Step 5: The user reads it out loud.
+### Step 5: Critical review (the stranger test).
+
+Run the draft through `/critical-review`. This is NOT a voice check. The `/review` command handles voice compliance. The critical review reads as a stranger who has never met the user, doesn't know their projects, and is encountering the piece cold.
+
+It checks for:
+- **Where a stranger would bounce** — specific paragraphs where attention drifts or confusion sets in
+- **Known tendency overuse** — meandering, tic density, underselling, too many ideas per piece, inside baseball, self-deprecation as deflection
+- **The "so what" test** — can a stranger state what this piece is about in one sentence? Do they have something after reading it they didn't have before?
+- **The hard question** — the one thing about the piece the user probably doesn't want to hear but needs to
+
+Why this step exists: the drafting collaborator (Step 4) is constrained by the voice guide and builds from the user's actual phrases. That's its job. But it's also in the room when the assumptions get made. It hears the riff, understands the context, knows the projects. A stranger doesn't have any of that. The critical review catches what the collaborator can't catch because the collaborator is too close to the work. Same principle as code review: fresh eyes find what the person deep in the implementation is blind to.
+
+After the review, revise the draft. Not every flag needs to be addressed, but every flag needs to be considered. The revision should tighten without sanding off voice. Cut the parts that lose a stranger. Keep the parts that are the user.
+
+### Step 6: The user reads it out loud.
 
 The final filter: if any sentence feels wrong coming out of the user's mouth, it gets cut or rewritten. Not "does this read well" but "would I actually say this to someone."
 
@@ -127,8 +141,8 @@ The goal is not "AI that writes like the user." The goal is "AI that helps the u
 
 `drafts/` -> `ready/` -> `published/`
 
-- **drafts/** -- Actively being worked on. Might be messy, half-finished, or mid-revision. Lives here during the writing process (Steps 1-5 above).
-- **ready/** -- Done writing, reviewed, read out loud, approved. Ready to post whenever timing is right. This is the staging/scheduling queue. Pull from here on publishing days.
+- **drafts/** -- Actively being worked on. Might be messy, half-finished, or mid-revision. Lives here during the writing process (Steps 1-6 above).
+- **ready/** -- Done writing, critically reviewed, revised, read out loud, approved. Ready to post whenever timing is right. This is the staging/scheduling queue. Pull from here on publishing days.
 - **published/** -- Live on a platform. Filename includes date and slug.
 
 When a piece moves from ready to published, update the filename with the actual publish date if it changed, and log it in the content backlog under published work.

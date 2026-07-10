@@ -9,7 +9,7 @@ argument-hint: "<topic or idea to riff on (optional)>"
 
 **Skills Referenced**: writing-process, voice-observation
 
-Start a collaborative drafting session using the 5-step writing process.
+Start a collaborative drafting session using the 6-step writing process.
 
 ## Before anything else
 
@@ -83,7 +83,11 @@ Include metadata at the top of the draft:
 
 Save the draft to the drafts directory (from `config.json`, default: `writings/drafts/`) using the naming convention `YYYY-MM-DD_short-title.md`.
 
-## Step 5: Read it out loud
+## Step 5: Critical review
+
+Suggest running `/critical-review` on the saved draft. This is the stranger test: a cold read for readability and impact, separate from voice compliance. It usually happens in a later pass, not the same breath as drafting — don't force it if the user wants to sit with the raw draft first.
+
+## Step 6: Read it out loud
 
 After saving the draft, remind the user: "Read this out loud. Any sentence that feels wrong coming out of your mouth gets cut or rewritten. That's the final filter."
 

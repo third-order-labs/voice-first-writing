@@ -11,6 +11,8 @@ argument-hint: "<path to draft file, or 'latest' for most recent>"
 
 Review a draft for voice consistency, anti-patterns, and energy calibration.
 
+This is the voice check. For readability and impact as a stranger would read it, use `/critical-review` — the two are deliberately separate reviews.
+
 ## Setup
 
 1. Read the voice guide (path from `config.json`, default: `writings/voice-guide.md`) fully.

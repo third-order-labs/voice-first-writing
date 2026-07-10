@@ -52,7 +52,7 @@ Shorter version (10-15 min). Gets a working voice guide from 5-7 questions. Good
 
 ### `/draft` — Drafting Session
 
-The main creative workflow. You riff on an idea, the AI pulls the strongest lines and structure, you confirm, and the AI drafts raw-first in your voice. Follows the 5-step writing process.
+The main creative workflow. You riff on an idea, the AI pulls the strongest lines and structure, you confirm, and the AI drafts raw-first in your voice. Follows the 6-step writing process.
 
 ### `/derive` — Article to Posts
 
@@ -61,6 +61,10 @@ Derives 2-3 standalone platform posts from a finished article. Each post extract
 ### `/review` — Draft Review
 
 Reviews a draft against your voice guide for anti-patterns, voice consistency, and energy calibration. Flags specific issues with suggested fixes.
+
+### `/critical-review` — The Stranger Test
+
+Reviews a draft as a stranger who has never met you and is encountering the piece cold. Not a voice check — that's `/review`. This one answers: would a neutral reader keep reading, or bounce? Flags where attention drifts, when authentic tendencies tip into overuse, and asks the hard question every piece is avoiding. Identifies problems; doesn't rewrite.
 
 ### `/resume` — Resume a Draft
 
@@ -82,7 +86,7 @@ Quick interview to generate a format guide for a specific platform (LinkedIn, Su
 
 | Skill | Description |
 |-------|-------------|
-| `writing-process` | The 5-step voice-first methodology: riff, pull, confirm, draft raw-first, read out loud. Self-updating system for voice guides and process refinement. |
+| `writing-process` | The 6-step voice-first methodology: riff, pull, confirm, draft raw-first, critical review, read out loud. Self-updating system for voice guides and process refinement. |
 | `voice-observation` | How to read voice from typed text. Signals, patterns, and mental model building for text-based voice capture. |
 
 ## The Writing Process
@@ -91,7 +95,8 @@ Quick interview to generate a format guide for a specific platform (LinkedIn, Su
 2. **AI pulls.** Identifies strongest lines, real argument, natural structure, energy level. Reflects it back.
 3. **You confirm or correct.** A conversation, not a review. Everything stays anchored to how you said it.
 4. **AI drafts, constrained.** Bound by your voice guide, your actual phrases, the agreed energy level. First draft is raw, not polished.
-5. **You read it out loud.** Any sentence that feels wrong coming out of your mouth gets cut or rewritten.
+5. **A stranger reads it cold.** The critical review catches what the drafting collaborator can't — it was in the room when the assumptions got made. Fresh eyes find where a neutral reader bounces.
+6. **You read it out loud.** Any sentence that feels wrong coming out of your mouth gets cut or rewritten.
 
 Raw-first, always. A draft that sounds like you talking at a bar is right. A draft that reads like a finished article is too polished.
 
