@@ -69,6 +69,16 @@ Why this step exists: the drafting collaborator (Step 4) is constrained by the v
 
 After the review, revise the draft. Not every flag needs to be addressed, but every flag needs to be considered. The revision should tighten without sanding off voice. Cut the parts that lose a stranger. Keep the parts that are the user.
 
+#### Resolving writer/critic conflicts
+
+The writer and the critic will disagree. That's the design — a critic that never conflicts with the writer isn't reading hard enough. When they do, these rules decide who wins:
+
+1. **The critic is advisory, not binding.** Its flags are inputs to revision, never automatic edits. If the reviewer's feedback were applied mechanically, every draft would converge on the same neutral competence — which is the exact failure this system exists to prevent.
+2. **The user's source phrasings are protected.** Lines pulled from the user's actual riff are load-bearing. The critic can flag that a phrasing loses a stranger; the fix is grounding around it (a sentence of context), not replacing the user's words with cleaner ones.
+3. **Tic-density zero is the failure mode.** If a revision pass removes every casual marker, aside, and rough edge, the critic won and the writing lost. A flagged cluster means thin it out, not strip it. Texture surviving review is success, not sloppiness.
+4. **Split by jurisdiction.** The critic wins on comprehension and structure (a stranger genuinely lost is a defect, whatever the voice guide says). The voice guide wins on style and register (sounding casual is not a defect). When one flag lands in both territories, fix the comprehension problem in the voice — add grounding, reorder, cut a thread — rather than translating the voice into standard English.
+5. **The user is the court of last resort.** Step 6 (read it out loud) settles anything still contested. If the revised line feels wrong in the user's mouth, the critic's version dies, no matter how correct it was.
+
 ### Step 6: The user reads it out loud.
 
 The final filter: if any sentence feels wrong coming out of the user's mouth, it gets cut or rewritten. Not "does this read well" but "would I actually say this to someone."

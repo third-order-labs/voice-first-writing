@@ -13,6 +13,12 @@ Review a draft from the perspective of a stranger who has never met the user, do
 
 This is NOT a voice check. `/review` handles voice compliance. This command answers one question on repeat: **"If I knew nothing about this person, would this paragraph make me want to keep reading or would I bounce?"**
 
+## Run it as a subagent
+
+Prefer spawning the `critical-reviewer` agent (bundled with this plugin) to do the review, passing it the draft path. This isn't a style choice — it's the architecture. The drafting collaborator was in the room when the assumptions got made: it heard the riff, knows the projects, understands the context. A subagent starts with none of that conversation context, which is what makes the stranger test honest. If you review inline in a session that helped draft the piece, you are grading your own homework.
+
+If agents aren't available in the current environment, fall back to reviewing inline using the process below — but say so, and be deliberately skeptical of context you already hold.
+
 ## Setup
 
 1. Read the voice guide (path from `config.json`, default: `writings/voice-guide.md`) fully. You need to understand the user's natural patterns so you can distinguish between intentional style choices and bad habits. You are not here to enforce the voice guide. You are here to know the difference between "that's how they talk" and "that's not working."

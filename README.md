@@ -66,6 +66,8 @@ Reviews a draft against your voice guide for anti-patterns, voice consistency, a
 
 Reviews a draft as a stranger who has never met you and is encountering the piece cold. Not a voice check — that's `/review`. This one answers: would a neutral reader keep reading, or bounce? Flags where attention drifts, when authentic tendencies tip into overuse, and asks the hard question every piece is avoiding. Identifies problems; doesn't rewrite.
 
+Runs as an isolated subagent (the bundled `critical-reviewer` agent) so the reviewer genuinely has no memory of the drafting session — the context isolation is what makes the stranger test honest. Its verdict is advisory, not binding: the writing-process skill documents how writer/critic conflicts get resolved without sanding the voice off.
+
 ### `/resume` — Resume a Draft
 
 Picks up an in-progress draft from where the last session left off. Loads working notes, reorients, and continues the process.
