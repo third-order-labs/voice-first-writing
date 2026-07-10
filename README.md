@@ -71,6 +71,10 @@ The main creative workflow. You riff on an idea, the AI pulls the strongest line
 
 Generates a cycle's worth of platform posts from web research intersected with what you've actually been building. Reads your tinkering log, asks what's on your mind, scans your projects, researches the discourse, and drafts posts that pass through the portable-observation gate ("would this still be interesting if you stripped the project context?") and critical review. Your platform strategy doc — audience, cadence, register mix, never-scan list — is the contract; the flywheel is just the engine. Publishing integration (Typefully) is optional, bring-your-own-key.
 
+### `/take` — Capture a Hot Take
+
+Zero-friction capture for the short spicy one-off before it evaporates. Pulls the most recent take-shaped riff from the conversation (or takes your text), applies minimal shaping under explicit spicy-preservation rules — one move not three, keep the half-thought markers, no neat conclusions — and saves or ships. Deliberately skips the full process: no voice-guide ceremony, no critical review. Status lives in frontmatter, not folders.
+
 ### `/derive` — Article to Posts
 
 Derives 2-3 standalone platform posts from a finished article. Each post extracts one insight and stands on its own. Not a summary, not a promo.
@@ -161,6 +165,7 @@ The full rules live in the `writing-process` skill; `/flywheel` applies them aut
     "published": "writings/published",
     "posts": "writings/posts",
     "posts_published": "writings/posts/published",
+    "takes": "writings/takes",
     "planning": "planning",
     "voice_guide": "writings/voice-guide.md",
     "format_guides": "writings"
@@ -192,6 +197,7 @@ voice-first-writing/
 │   ├── quickstart.md
 │   ├── draft.md
 │   ├── flywheel.md
+│   ├── take.md
 │   ├── derive.md
 │   ├── review.md
 │   ├── critical-review.md

@@ -11,6 +11,7 @@
     "published": "writings/published",
     "posts": "writings/posts",
     "posts_published": "writings/posts/published",
+    "takes": "writings/takes",
     "planning": "planning",
     "voice_guide": "writings/voice-guide.md",
     "format_guides": "writings"
