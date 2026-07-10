@@ -42,6 +42,8 @@ After the user has riffed, reflect back:
 3. **Natural structure**: How the idea unfolded in conversation. Don't impose article structure. Show the arc that's already there.
 4. **Energy level**: Propose a level (1-4 from the voice guide) and explain why.
 5. **Platform**: Based on the content, not assumption. "Just riffing" is a valid answer — not everything needs a destination at draft time.
+
+   **Long-form signal**: if the riff has multiple ideas that all want to live in the same piece, exploratory tangents that aren't reducible, an argument that's working through rather than landing, or compressing the thinking to short-post length would lose what makes it interesting, flag a long-form platform (newsletter, blog, essay) even if the user came in expecting a short post. Watch for "and another thing" energy in the riff. The user decides — but don't default to their dominant platform just because it's dominant.
 6. **Thread**: Which content backlog thread does this connect to?
 
 Ask the user: "Does this feel right? What am I missing?"
