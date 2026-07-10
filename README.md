@@ -90,6 +90,7 @@ Quick interview to generate a format guide for a specific platform (LinkedIn, Su
 |-------|-------------|
 | `writing-process` | The 6-step voice-first methodology: riff, pull, confirm, draft raw-first, critical review, read out loud. Self-updating system for voice guides and process refinement. |
 | `voice-observation` | How to read voice from typed text. Signals, patterns, and mental model building for text-based voice capture. |
+| `tinkering` | Autonomous capture of what you just built, wherever you built it. Appends short dated entries to a global log that feeds the content flywheel. Fires on its own when a real unit of work wraps — no ceremony. |
 
 ## The Writing Process
 
