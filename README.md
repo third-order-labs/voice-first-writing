@@ -93,6 +93,10 @@ Runs as an isolated subagent (the bundled `critical-reviewer` agent) so the revi
 
 Picks up an in-progress draft from where the last session left off. Loads working notes, reorients, and continues the process.
 
+### `/newsletter` — Periodic Newsletter
+
+Assembles a newsletter from what you published and built during a period: a curated roundup, one deeper insight piece (riffed with you, never fully automated — that's what keeps it from reading like an AI digest), and a build-in-public note from the trenches. Runs the whole thing through critical review before you see it.
+
 ### `/publish` — Publish Content
 
 Handles both articles and posts. Articles move from `ready/` to `published/` with full confirmation. Posts move from `posts/` to `posts/published/` with a lighter flow that supports bulk publishing. Updates tracking docs for both.
@@ -202,6 +206,7 @@ voice-first-writing/
 │   ├── review.md
 │   ├── critical-review.md
 │   ├── resume.md
+│   ├── newsletter.md
 │   ├── publish.md
 │   ├── wrap.md
 │   └── formatguide.md
