@@ -230,7 +230,7 @@ Content-Type: application/json
 
 Platform keys: `linkedin` for LinkedIn, `x` for Twitter/X. For threads, pass multiple `posts` entries. Strip markdown before pushing — plain text only.
 
-**After a successful push:** update the post's Status from `Flywheel final` to `Published` (commitment to the queue, not confirmation it went live), and append a one-line entry to the content backlog's published section per the strategy doc's tracking rules.
+**After a successful push:** update the post's Status from `Flywheel final` to `Published` (commitment to the queue, not confirmation it went live), and append a one-line entry to the content backlog's published section under the post's platform (format: `"Title" (YYYY-MM-DD) — brief description`). If the strategy doc defines its own tracking rules, those override this default.
 
 **If a push fails:** leave Status as `Flywheel final`, don't update the backlog, and report the failure in the summary for manual retry.
 

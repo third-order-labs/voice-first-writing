@@ -23,7 +23,7 @@ Gets a new user from zero to ready-to-draft in one session (or across a few sess
 
 ## Step 1: Create workspace and configure
 
-Read `config.template.json` to get the default directory structure. Create the workspace directories it defines: `writings/drafts`, `writings/ready`, `writings/published`, `writings/posts`, `writings/posts/published`, and `planning`. Note that two `directories` entries are NOT directories to create: `voice_guide` is a file path (the voice capture step writes it later) and `format_guides` names the parent directory format guides are written into. Don't `mkdir` those.
+Read `config.template.json` to get the default directory structure. Create the workspace directories it defines: `writings/drafts`, `writings/ready`, `writings/published`, `writings/posts`, `writings/posts/published`, `writings/takes`, and `planning`. Note that two `directories` entries are NOT directories to create: `voice_guide` is a file path (the voice capture step writes it later) and `format_guides` names the parent directory format guides are written into. Don't `mkdir` those.
 
 Then prompt the user for preferences:
 
@@ -90,7 +90,9 @@ Brief walkthrough of the system:
 - **`/draft`** starts a writing session (the main creative workflow — riff on an idea, pull the strongest lines, draft in your voice)
 - **`/flywheel`** generates a cycle of platform posts from web research intersected with what you've been building (reads the tinkering log + your platform strategy)
 - **`tinkering`** captures what you just built, autonomously, wherever you're working — it's the flywheel's primary fuel; you mostly never invoke it, it fires itself
+- **`/take`** captures a short spicy one-off before it evaporates — minimal shaping, deliberately skips the full process
 - **`/derive`** creates platform posts from finished articles (lower effort, leverages the thinking already done in the article)
+- **`/newsletter`** assembles a periodic newsletter from what you published and built — curated roundup, one insight piece riffed with you, a build-in-public note
 - **`/review`** checks a draft against your voice guide for consistency and anti-patterns
 - **`/critical-review`** reads a draft as a stranger would — readability and impact, not voice (a separate, isolated reviewer by design)
 - **`/resume`** picks up an interrupted draft from where you left off

@@ -33,7 +33,7 @@ Read the article and identify 2-3 insights that could stand alone as platform po
 - Which part of the article it comes from
 - Why it works as a standalone post
 
-Refer to the format guide's "What makes a good extraction" criteria:
+What makes a good extraction (apply the format guide's derivation section on top of these, if it has one):
 - The insight stands alone without the article's supporting argument
 - It's specific enough to be interesting
 - It has its own natural opening and landing

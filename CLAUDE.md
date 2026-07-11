@@ -80,13 +80,13 @@ Filename convention: `YYYY-MM-DD_short-title.md`
 
 This plugin includes three skills that commands reference:
 
-- **writing-process** — The 6-step methodology, raw-first philosophy, writer/critic conflict rules, self-updating system. Referenced by `/draft`, `/resume`, `/review`, `/critical-review`, `/derive`, `/flywheel`.
-- **voice-observation** — How to read voice from typed text (signals, patterns, mental model building). Referenced by `/interview`, `/quickstart`, `/draft`, `/wrap`, `/review`.
+- **writing-process** — The 6-step methodology, raw-first philosophy, writer/critic conflict rules, self-updating system. Referenced by `/draft`, `/resume`, `/review`, `/critical-review`, `/derive`, `/flywheel`, `/newsletter`.
+- **voice-observation** — How to read voice from typed text (signals, patterns, mental model building). Referenced by `/setup`, `/interview`, `/quickstart`, `/draft`, `/wrap`.
 - **tinkering** — Autonomous capture of what was just built, appended to the tinkering log that feeds `/flywheel`. Fires on its own when a real unit of work wraps.
 
 And one agent:
 
-- **critical-reviewer** — The stranger test. Spawned by `/critical-review` and `/flywheel` with zero drafting-session context; its verdict is advisory per the writer/critic rules in the writing-process skill.
+- **critical-reviewer** — The stranger test. Spawned by `/critical-review`, `/flywheel`, and `/newsletter` with zero drafting-session context; its verdict is advisory per the writer/critic rules in the writing-process skill.
 
 ## What this system produces
 

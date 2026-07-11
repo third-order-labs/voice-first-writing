@@ -74,9 +74,6 @@ Format and structural reference for [platform] content. Separate from the voice 
 ## Platform realities (acknowledged, not optimized for)
 [Honest assessment of platform dynamics. What the algorithm rewards vs. what the user actually wants. Based on Q4 and Q6.]
 
-## Product note
-This doc is designed to be generalizable. The structure — strategy intent, format preferences, derivation process — could be templated for any user negotiating their own platform preferences through a format interview.
-
 ---
 
 *Living document. Refines through use.*

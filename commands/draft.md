@@ -75,7 +75,7 @@ Include metadata at the top of the draft:
 ```
 # Title
 
-**Platform**: [LinkedIn post / LinkedIn article / Substack]
+**Platform**: [the confirmed platform, or "unassigned" in freeform mode]
 **Thread**: [from content backlog]
 **Energy level**: [1-4 with brief description]
 **Status**: Draft v1

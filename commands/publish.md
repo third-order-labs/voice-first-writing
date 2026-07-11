@@ -17,7 +17,6 @@ Check that these exist (paths from `config.json`):
 - The ready directory (default: `writings/ready/`)
 - The posts directory (default: `writings/posts/`)
 - The content backlog (default: `planning/content-backlog.md`) — if missing, skip the backlog update step and note: "No content backlog found. Create one to track published work, or run `/setup` for full workspace configuration."
-- The content roadmap (default: `planning/content-roadmap.md`) — if missing, skip the roadmap update step.
 
 Proceed with whatever steps are possible. Publishing should never be blocked by missing tracking docs.
 
@@ -31,7 +30,7 @@ Proceed with whatever steps are possible. Publishing should never be blocked by 
 ## Article Publish Workflow
 
 1. **Confirm the piece**: Show the filename and title. Ask the user to confirm, and ask:
-   - What platform was it published on? (LinkedIn post, LinkedIn article, Substack)
+   - What platform was it published on? (suggest `default_platform` from `config.json` if set; otherwise just ask)
    - What's the actual publish date? (may differ from the draft date)
    - Any last-second title change?
 
@@ -42,11 +41,7 @@ Proceed with whatever steps are possible. Publishing should never be blocked by 
    - Format: `"Title" (YYYY-MM-DD) — brief description`
    - Note which threads it develops (reference the Active Threads by number)
 
-4. **Update content roadmap** (in the planning directory from `config.json`: `planning/content-roadmap.md`):
-   - If this piece was on the roadmap or evergreen queue, mark it as published
-   - Update status in the relevant table or wave section
-
-5. **Confirm**: Show the user what was updated.
+4. **Confirm**: Show the user what was updated.
 
 ## Post Publish Workflow
 
@@ -60,7 +55,7 @@ Lighter weight. Supports bulk.
    - If a single file was passed as argument, confirm just that one
 
 3. **Ask once for the batch** (not per-post):
-   - What platform? (default: LinkedIn, since most derived posts target it)
+   - What platform? (default: `default_platform` from `config.json` if set, else the platform the posts were derived for)
    - Publish date? (default: today)
 
 4. **For each confirmed post**:

@@ -28,6 +28,8 @@ Read (non-negotiable):
 4. `planning/interest-map.md` — what the user is building and thinking about (this also defines the newsletter's domain: the roundup covers *the user's* corner of the world, whatever that is)
 5. `planning/platform-strategy.md` — if it defines a newsletter section mix, it overrides the default structure below
 
+If the interest map or strategy doc doesn't exist (setup Step 5 is skippable), don't block: ask the user to describe their domain and what they've been building in a couple of sentences, use that in place of the missing docs, and suggest running `/setup` afterward to make it permanent. Without a strategy doc there is no scan list — so skip the project scan in Step 1 rather than guessing, and treat the never-scan rule as "nothing identifying clients or employers, ever."
+
 ## Default structure
 
 Three sections, each with a distinct purpose and voice register. The strategy doc can override this mix; absent that, this is the shape:
@@ -121,7 +123,7 @@ Draft all sections in a single document:
 - **Insight:** Raw-first, same as `/draft`. Should read like the user thinking on the page, not a polished essay.
 - **Trenches:** Build-in-public honesty. Not a highlight reel. Include the messy parts.
 
-Save to `writings/drafts/YYYY-MM_newsletter-[month].md`.
+Save to the drafts directory (from `config.json`, default: `writings/drafts/`) as `YYYY-MM_newsletter-[month].md`.
 
 ## Step 4: Critical Review
 
@@ -136,11 +138,11 @@ The writer/critic conflict rules from the writing-process skill apply. Common ne
 
 ## Step 5: The User Reviews
 
-Not optional. The newsletter has the user's name on it and includes riff content. They read the full draft, edit the insight section, approve. Move to `writings/ready/` when approved.
+Not optional. The newsletter has the user's name on it and includes riff content. They read the full draft, edit the insight section, approve. Move to the ready directory (from `config.json`, default: `writings/ready/`) when approved.
 
 ## Step 6: Publish
 
-Platform-dependent — most newsletter platforms (LinkedIn newsletters, Substack, Buttondown) want content pasted into their own tool, so publishing is typically manual. Note the platform and date in the file metadata when published, and move to `writings/published/`.
+Platform-dependent — most newsletter platforms (LinkedIn newsletters, Substack, Buttondown) want content pasted into their own tool, so publishing is typically manual. Note the platform and date in the file metadata when published, and move to the published directory (from `config.json`, default: `writings/published/`).
 
 ## Important notes
 
