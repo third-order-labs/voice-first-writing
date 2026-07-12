@@ -38,6 +38,8 @@ Open with something like this — adapt to the energy of the conversation so far
 >
 > So don't compose. Don't edit. Typos are fine, abbreviations are fine, swearing is fine. If you'd normally trail off mid-thought or change direction halfway through a sentence, do that. The more this feels like texting someone you're comfortable with, the better the output will be.
 >
+> Fair warning: done properly this takes a while — think 30-45 minutes. If you need to bail partway through, that's fine, nothing gets lost.
+>
 > Ready?"
 
 **Why this works**: Permission framing ("typos are fine") drops the composing behavior. Honest transparency ("it's about how you answer, not what") reframes the task away from "getting it right." The casual tone models the register you want to receive. Don't say "just be natural" — that makes people self-conscious. Instead, create the conditions and let it happen.
@@ -52,6 +54,16 @@ Keep reflections short. 1-2 sentences that show you heard them, then the next qu
 **Don't**: Write 3-4 paragraphs interpreting their answer back to them. Don't make connections between their answers ("that's the same instinct as..."). Don't narrate their experience in your frame ("that's not X energy, that's Y energy"). That's voice guide work, not interview work. Doing it mid-interview puts words in their mouth and eats the clock.
 
 The interview should feel like 70% them talking, 30% you. If your reflections are longer than their answers, you're talking too much.
+
+### Capture quotes as you go
+
+The voice guide requires example phrases quoted *exactly*. This conversation is long enough that earlier parts of it may get summarized out of your context before you write the output — and exact quotes are the first thing lost. A paraphrase presented as a quote poisons the guide: every future draft calibrates against phrasing the person never used.
+
+So capture verbatim candidates as they land. When someone types a line that sounds unmistakably like them, silently append it to a scratch file (word for word, including typos — the typos are voice data). Don't announce this or read it back to them mid-interview. At output time, pull quotes only from that file or from conversation text you can still see verbatim. If you're not certain a line is exact, don't put quotation marks on it.
+
+### If they stay guarded
+
+Some people are still giving composed, two-sentence answers three phases in. Don't grind through the remaining phases hoping it changes. Two moves: lean harder into Phases 2 and 5 — enthusiasm and heat are where guarded people crack first — and if that doesn't do it, name it once, lightly: "You're still writing me pretty polished answers. Genuinely — give me the version you'd type to a friend, mess and all." If they simply are a composed communicator, that's not a failure; it's a finding. Capture it as their voice instead of fighting it.
 
 ### Phase 1: Warm up (get them talking naturally)
 
@@ -120,13 +132,19 @@ Find out what they admire and what they hate. The goal is to understand their re
 - "What kind of writing or content makes you cringe?"
 - "If someone was writing as you and you could give them one rule, what would it be?"
 - "Is there a writer or creator whose voice you admire? Not to copy, but what is it about how they communicate?"
-- Watch for: what they value (clarity? honesty? humor? precision?), what they react against (hype? jargon? false modesty?), the gap between what they admire and how they currently write.
+- "Got anything you've already written that you actually like — a post, a rant in a group chat, an email you were proud of? Paste it or point me at it."
+- The writing sample matters more than it looks. The self-description philosophy doesn't apply to artifacts: a raw tweet or a heated Slack message is behavior, not aspiration. And it's the only direct data you'll get for the "gap to watch for" section — you can't describe the distance between their speaking voice and their writing voice if you've never seen them write for an audience. Treat polished samples with suspicion (that's the voice they perform); treat raw ones as gold.
+- Watch for: what they value (clarity? honesty? humor? precision?), what they react against (hype? jargon? false modesty?), the gap between what they admire and how they currently write, and — if they shared a sample — the gap between the sample and how they've been typing to you for the last half hour.
 
 ### Soft landing
 
 After you've gotten meaningful signal across at least 5 of the 7 phases — or after roughly 10-12 substantive exchanges where the person is writing real responses, not one-liners — check in: "I think I've got a solid read on how you think and talk. Want to keep going, or should I take a shot at your voice guide and we see how it lands?"
 
 If they want to keep going, keep going. Some of the best data comes late when someone is fully in the flow and has stopped thinking about their responses. If they want to see output, move to the generation step.
+
+### If they bail early
+
+If the person has to stop before you've covered enough ground, don't let the session evaporate. Write a partial voice guide to the voice guide path with whatever you have, and mark it honestly: add a note at the top listing which phases were covered and which weren't, and flag sections built on thin data as provisional. A future `/interview` session reads that note, keeps what's solid, and picks up at the gaps instead of starting over.
 
 ## Output
 
@@ -152,6 +170,8 @@ After the conversation, generate a comprehensive voice guide at the voice guide 
 - Level 2 — [their version of analytical, with example]
 - Level 3 — [their version of structural claims, with example]
 - Level 4 — [their version of hammer drop, with example if it surfaced]
+
+[Quote examples only for levels that actually surfaced in the conversation. If a level never showed up, describe it as extrapolated and say so — don't invent a quote for it.]
 
 ## Diction and syntax
 [How they actually talk. Sentence patterns, vocabulary, profanity, formality level, fragments, rhythm.]
