@@ -33,7 +33,7 @@ Do NOT fire on: trivial one-line edits, mid-task checkpoints where work is still
 
 **Default (no arguments):** You have the session context. Distill what just happened into a short tinkering entry. No questions needed. Write 2-3 sentences, max a short paragraph, capturing what was done and anything notable. Then append it to the log.
 
-**With arguments** (e.g., `/tinkering the persona overlay system is the interesting part here`): Use the provided context to guide the entry. The user is telling you what they think is notable or wants to emphasize something specific. Combine their input with your session context to write the entry.
+**With arguments** (e.g., `/tinkering the cache invalidation approach is the interesting part here`): Use the provided context to guide the entry. The user is telling you what they think is notable or wants to emphasize something specific. Combine their input with your session context to write the entry.
 
 ## When to ask questions
 
@@ -67,8 +67,8 @@ Leave a blank line after each entry for readability.
 ## Rules
 
 - Keep it short. This is a log entry, not a session summary.
-- Be specific. "Worked on the email system" is useless. "Built tenant-wide digest auto-replies that generate executive summaries from inbound queries" is useful.
+- Be specific. "Worked on the pipeline" is useless. "Rewrote the ETL dedupe to hash on (source_id, updated_at) — cut the nightly run from 40 minutes to 6" is useful.
 - Use the project name from the current working directory, not a guess.
 - Timestamps should use the current local time.
 - Don't editorialize. Capture what happened, not what it means for content strategy. The flywheel does that mapping later.
-- If the session was genuinely uneventful (debugging, yak-shaving, nothing interesting), say so briefly. Not every entry needs to be interesting. "Spent 2 hours debugging email routing. Fixed the From condition. Nothing notable." is a valid entry.
+- If the session was genuinely uneventful (debugging, yak-shaving, nothing interesting), say so briefly. Not every entry needs to be interesting. "Spent 2 hours on a flaky CI test. Timezone-dependent date assertion. Nothing notable." is a valid entry.

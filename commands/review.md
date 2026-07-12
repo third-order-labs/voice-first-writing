@@ -25,7 +25,7 @@ Work through each of these systematically. Be specific. Reference line numbers.
 ### Voice match
 - Does this sound like the user? Read each paragraph and ask: would the user say this out loud to someone?
 - Are there sentences that are technically correct but could have been written by anyone?
-- Does it open with a specific experience or observation (not a thesis statement)?
+- Does it open the way the voice guide says this person opens? (Default if the guide is silent: specific experience or observation, not a thesis statement.)
 - Does the ending match the voice guide's structural patterns and energy level?
 
 ### Energy calibration
@@ -36,7 +36,7 @@ Work through each of these systematically. Be specific. Reference line numbers.
 ### Anti-pattern scan
 Check for every item in the voice guide's "AI writing anti-patterns" section and "What [name] never sounds like" section. Scan for:
 
-- Em-dashes (universal AI tell, always flag regardless of voice guide)
+- Em-dashes (AI tell — flag by default; the only pass is a voice guide that explicitly records them as the user's genuine pre-AI habit)
 - Every specific anti-pattern listed in the voice guide
 - Every "never sounds like" pattern from the voice guide
 - Constant intensity (every paragraph at the same energy level with no variation)
@@ -44,10 +44,11 @@ Check for every item in the voice guide's "AI writing anti-patterns" section and
 Reference the voice guide by name when flagging issues so the user can verify the rule.
 
 ### Structural check
-- Does it build through narrative ("here's what happened, here's what I noticed, here's what it means")?
-- Are strong claims earned by showing the work first?
-- Are section breaks (---) used to shift gears instead of headers?
-- Do short sentences follow long ones? Is there rhythm variation?
+Check the draft against the voice guide's structural patterns section — this check is only as person-specific as that section, so use its rules, not a generic template. The kinds of things it typically covers:
+- How this person builds an argument (e.g., narrative "here's what happened, here's what I noticed, here's what it means" vs. claim-first)
+- Whether strong claims are earned the way this person earns them (usually: showing the work first)
+- Their formatting conventions (some voices shift gears with section breaks, some use headers, some write straight through)
+- Their sentence rhythm (e.g., short sentences after long ones) — and whether the draft actually varies, or sits at one register throughout
 
 ### Verbal tics check
 Review the voice guide's "Verbal tics and tendencies" section. These should be present in the draft (sparingly, naturally). Their absence often means the draft has been over-polished. Check:

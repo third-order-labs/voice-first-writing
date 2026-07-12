@@ -51,7 +51,7 @@ The interest map should reflect what the user is working on *right now*, not las
 
 ### 1a. Tinkering log (primary signal)
 
-Read the tinkering log (path from `config.json` under `tinkering_log`, default: `~/.claude/tinkering.md`) for entries from the last 2 weeks. This is the highest-fidelity signal for what the user has actually been working on, because it's captured in-session with full context. Work that never made it into a git commit (exploration, prototyping, dead ends worth writing about) shows up here.
+Read the tinkering log (path from `config.json` under `tinkering_log`, default: `~/.claude/tinkering.md`) for entries since the last flywheel run — one cycle per the strategy doc's cadence (default if unclear: 2 weeks). This is the highest-fidelity signal for what the user has actually been working on, because it's captured in-session with full context. Work that never made it into a git commit (exploration, prototyping, dead ends worth writing about) shows up here.
 
 If the tinkering log doesn't exist or has no recent entries, note that and rely more heavily on the check-in and project scan.
 
@@ -62,16 +62,18 @@ Ask the user 2-3 quick questions:
 - "Anything surprise you or piss you off?"
 - "Any experiments or rabbit holes?"
 
+Adapt the phrasing to the user's register (per the voice guide) — the three beats matter (recent work, emotional reactions, tangents), not the exact words.
+
 This is NOT optional. The tinkering log and project scan capture what happened mechanically. The check-in captures what's on the user's mind, which is often different. If the user passes ("nothing to add" / "just run it"), that's fine, but always ask.
 
 ### 1c. Session summaries
 
-Scan `planning/session-summary-*.md` for summaries from the last 2 weeks. These capture drafting and planning work inside this workspace. Cross-reference with the tinkering log for activity in other projects.
+Scan `planning/session-summary-*.md` for summaries from the current cycle (same window as 1a). These capture drafting and planning work inside this workspace. Cross-reference with the tinkering log for activity in other projects.
 
 ### 1d. Project scan
 
 The strategy doc lists the project directories to scan. For each:
-- `git log --oneline --since="2 weeks ago"` (if it's a git repo)
+- `git log --oneline --since="<one cycle ago>"` (if it's a git repo; same window as 1a)
 - Note active branches
 - Read the README or CLAUDE.md first 30 lines for context (only if not already captured in the interest map)
 
@@ -81,7 +83,7 @@ For large repos, only scan git activity — don't read source code.
 
 ### 1e. Recent content check
 
-Scan the published directory for anything from the last 2 weeks. Note themes to avoid repeating and angles that are getting stale.
+Scan the published directory for anything from the current cycle (same window as 1a). Note themes to avoid repeating and angles that are getting stale.
 
 ### 1f. Update the interest map
 

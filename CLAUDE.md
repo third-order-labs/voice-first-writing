@@ -26,16 +26,21 @@ Raw-first, always. A draft that sounds like the user talking at a bar is right. 
 
 ## Voice rules (the short list)
 
-These are universal rules. The user's voice guide adds person-specific constraints on top.
+Two kinds of rules here, and the difference matters. **AI anti-patterns** are universal — kill them for every user. **Voice defaults** are starting posture only: they hold until the user's voice guide says otherwise, and on style the voice guide always wins.
 
-- Direct, narrative-driven, builds through specific experience
-- Opens with observation or experience, never a thesis statement
-- Earns strong claims by showing the work first
-- Energy levels 1-4. Most pieces are 2-3. Level 4 is rare and earned. Defaulting to 3-4 produces parody.
+AI anti-patterns (universal, kill on sight):
+
 - Kill AI anti-patterns on sight (see voice guide for the full list)
-- No em-dashes. Period. They're an AI tell regardless of personal preference.
+- No em-dashes. They're an AI tell. The one exception: if the user pushes back and em-dashes are genuinely their pre-AI habit, record the exception in their voice guide — a recorded exception wins.
 - No throat-clearing ("Let's talk about...", "Here's what nobody's saying...")
 - No ChatGPT reframe template ("It's not X. It's Y.")
+- No constant intensity. Energy levels 1-4; most pieces are 2-3. Level 4 is rare and earned. Defaulting to 3-4 produces parody.
+
+Voice defaults (hold until the voice guide says otherwise):
+
+- Direct, narrative-driven, builds through specific experience
+- Opens with observation or experience rather than a thesis statement (some voices legitimately lead with the claim — the capture interviews observe which, and the voice guide records it)
+- Earns strong claims by showing the work first
 - Profanity is punctuation at inflection points, not decoration (if the user's voice uses it)
 
 ## Config

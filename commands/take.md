@@ -7,7 +7,7 @@ argument-hint: "[text] [hold|schedule <when>] [--platform <platform>]"
 
 **Config**: This command reads directory paths and publishing settings from `config.json`. Falls back to defaults if config is missing.
 
-Short spicy one-off. Minimal polish, maximum speed. Most writers default to long-form; the drive-by take evaporates unless there's a zero-friction way to catch it. This is that way.
+Short spicy one-off. Minimal polish, maximum speed. The drive-by take evaporates unless there's a zero-friction way to catch it. This is that way.
 
 ## Before starting
 
@@ -95,7 +95,7 @@ The diagnostic failure mode: a raw riff goes in, and a structured mini-essay com
 ### Spicy principles
 
 - **One move, not three.** Setup + argument + landing is a blog post compressed. Drive-by takes do one thing. Assert, observe, provoke, or show — pick one, don't stack them.
-- **Specificity with edge.** Name the tool, not the category. Cite the moment (a 60-line SQL query, not "writing SQL"). Abstraction kills spice.
+- **Specificity with edge.** Name the tool, not the category. Cite the moment, not the activity (the specific query, the exact error, the one meeting). Abstraction kills spice.
 - **Keep the half-thought energy.** If the original riff trailed off, let it trail. "starting to think..." / "genuinely wondering..." / "IDK..." are not weakness, they're the texture that makes it sound like a person thinking in real time.
 - **Raw register from the source.** The user's original phrasing is almost always spicier than a polished version of it. If they said "I hope that AI coding means the end of ORMs..." don't rewrite to "AI coding should be the end of ORMs." Keep the "I hope" and the trailing dots.
 - **Provoke, don't argue.** A question ("what is the ORM for") or a flat assertion ("shit works fine without them") lands harder than a three-beat case. Takes don't need to convince anyone.
@@ -128,7 +128,7 @@ Three moves, polished parallel structure, neat conclusion. Reads like a LinkedIn
 
 ## Voice rules (the short list)
 
-- No em-dashes, ever
+- No em-dashes
 - No "It's not X, it's Y" reframes
 - No throat-clearing openers ("Let's talk about", "Here's what nobody's saying")
 - No hedging clutter — unless it's the user's half-thought hedging ("IDK", "starting to think", trailing dots); that's texture, not weakness

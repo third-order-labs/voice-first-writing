@@ -87,7 +87,7 @@ See platform format guides (create one with `/formatguide`). Voice stays consist
 
 ## AI writing anti-patterns
 [Start with common ones. Refine as drafting sessions reveal what sounds wrong in their voice.]
-- Em-dashes (AI tell, avoid regardless of personal preference)
+- Em-dashes (AI tell — default rule, confirm with the user; if they're genuinely a pre-AI habit of theirs, record the exception here instead)
 - [Others based on conversation]
 
 ---

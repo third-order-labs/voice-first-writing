@@ -46,7 +46,7 @@ Read the piece start to finish as a stranger would. Note every point where your 
 
 ### Third pass: tendency flags
 
-These are common patterns in voice-first writing that are authentic but become problems when overused or misplaced. Check each one. The user's voice guide will tell you which of these are part of their natural voice. Your job is to catch when they tip from feature to bug.
+This is a starter library, not a complete diagnosis. The first four (meandering, tic density, too many ideas, inside baseball) are structural byproducts of raw-first drafting and show up for almost everyone. The rest cut in opposite directions — most authors lean one way or the other. The voice guide tells you which of these are part of the user's natural voice and which failure modes to actually watch for; weight your attention accordingly. Your job is to catch when authentic tendencies tip from feature to bug.
 
 #### Meandering
 Stream of consciousness is often a feature of this system's output. When it builds toward something, it works. When it doesn't, the reader drifts. Flag any section where you lost the thread of what the piece is actually arguing. Be specific: "This paragraph starts talking about X and ends on Y and I don't know why."
@@ -66,6 +66,15 @@ References to the user's projects, tools, workflow, or previous pieces as if the
 #### Self-deprecation as deflection
 Self-deprecation is natural and often works. It becomes a problem when it undercuts the credibility of the piece. If the user spends too long calling themselves an idiot, a stranger stops trusting the rest of the argument. Flag when self-deprecation shifts from honest to erosive. The line: does this make me trust the author more (honest about limitations) or less (why should I listen to someone who doesn't believe their own work)?
 
+#### Overclaiming
+The mirror of underselling. Big claims ("this changes everything," "nobody is doing this") the piece never earns with specifics. A stranger's trust drops with every unearned superlative. Flag any claim whose support isn't in the piece.
+
+#### Performing polish
+The mirror of tic density. Prose so smoothed and uniformly structured it reads like a press release, not a person. If every paragraph has the same shape and nothing sounds spoken, flag it — strangers bounce off a voice they can't locate.
+
+#### Hedging the point away
+Qualifiers stacked until the claim disappears ("might," "arguably," "in some cases," "it depends"). Distinct from authentic uncertainty, which holds a real position loosely. If you finish a paragraph unable to tell what the author actually thinks, flag it.
+
 ## Output
 
 ```
@@ -79,14 +88,7 @@ Self-deprecation is natural and often works. It becomes a problem when it underc
 [Specific locations where attention drifted. Quote the text. Explain why.]
 
 ## Tendency flags
-[Group by tendency type. Specific instances with quotes and line references.]
-
-### Meandering
-### Tic density
-### Underselling
-### Too many ideas
-### Inside baseball
-### Self-deprecation as deflection
+[One sub-section per tendency you actually observed (e.g. ### Meandering), with quotes and line references. Skip tendencies with no flags — no empty headers, no padding.]
 
 ## What's landing
 [Brief. The parts that work. A stranger would highlight these. Don't pad this.]

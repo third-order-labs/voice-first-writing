@@ -66,9 +66,9 @@ Write the draft constrained by:
 - The first draft should be RAW. It should read like a cleaned-up transcript of the user talking. Too many tangents, sentences that start one place and end somewhere else. If it reads like a finished article, it's too polished.
 - Build from the user's speech, not from scratch. If you can't say something in a way that sounds like the user, flag it and ask.
 - No throat-clearing transitions, no ChatGPT reframes, no performative intensity.
-- No em-dashes. Use periods (creates fragments, often punchier), commas, or restructure.
-- Short sentences after long ones. Fragments welcome. Uncertainty welcome.
-- Open with observation or experience, never a thesis statement.
+- No em-dashes (unless the voice guide records them as the user's genuine pre-AI habit). Use periods (creates fragments, often punchier), commas, or restructure.
+- Vary the rhythm per the voice guide's patterns. For most voices: short sentences after long ones, fragments welcome. Uncertainty welcome.
+- Open the way the voice guide says this user opens. Default: observation or experience rather than a thesis statement.
 - Ending should follow the voice guide's structural patterns. No summary paragraph, no call to action.
 
 Include metadata at the top of the draft:
