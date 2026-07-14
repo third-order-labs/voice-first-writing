@@ -100,6 +100,18 @@ Qualifiers stacked until the claim disappears ("might," "arguably," "in some cas
 [One of: "Publish as-is", "Tighten and publish", "Pick one idea and rewrite", "Sit on it"]
 ```
 
+## After the review — closing the loop
+
+The verdict lands back in the main session, and the review is only half the job. What happens next (this is the part that strands people when it's skipped):
+
+1. **Relay the verdict in full.** Don't summarize away the "Where I bounced" quotes or the hard question — the specifics are what make the flags actionable.
+2. **The reviewer is advisory, not binding.** The writer/critic conflict rules in the writing-process skill govern what gets applied: source phrasings are protected, tic-density zero is the failure mode, the user is the court of last resort. If that skill isn't loaded, load it before revising.
+3. **Ask what to apply.** Walk the flags with the user and let them pick — or propose a specific revision pass ("here's what I'd change and what I'd deliberately keep") and get a yes before touching the draft. Never silently apply every flag; mechanically applied criticism converges every draft on the same neutral competence.
+4. **Revise here, in the main session.** The reviewer is read-only by design — it identifies problems and cannot fix them. "Apply your observations" from the user is a complete instruction: apply the flags per the conflict rules, then show what changed and what you kept on purpose.
+5. **Hand off to the final filter.** After revising, remind the user to read the piece out loud. Anything that feels wrong in their mouth gets cut, whatever the reviewer said.
+
+The Recommendation verdicts map to actions: "Publish as-is" → offer the next pipeline step (`/review`, or the move to ready). "Tighten and publish" / "Pick one idea and rewrite" → the revise loop above. "Sit on it" → leave the draft where it is and say why.
+
 ## Rules
 
 - Read every word. Don't skim.

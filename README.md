@@ -18,6 +18,11 @@ In Claude Code:
 /plugin install voice-first-writing@third-order-labs-plugins
 ```
 
+Two notes on scope:
+
+- The autonomous pieces (notably the `tinkering` skill that feeds `/flywheel`) only run in sessions where the plugin is loaded. If you enable it only in your writing workspace, capture won't happen in the repos where you actually build — enable it everywhere, or run `/tinkering` manually from other projects.
+- Using pieces of the system outside Claude Code (in a chat session, say) works, and the commands degrade deliberately: reviews fall back to an inline skeptical pass, capture commands present their artifact in-response for you to save yourself. The full harness is better, but nothing should dead-end.
+
 ## Quick Start
 
 ### 1. Run setup

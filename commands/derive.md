@@ -91,6 +91,8 @@ Include metadata at the top:
 
 Present all posts in the conversation for the user to review. They'll skim, edit if needed, and post on their own schedule.
 
+Tell them the rest of the pipeline too: the posts sit in the posts directory with `Status: draft` until they go up. When one is posted, `/publish posts` moves it to the posts published directory and logs it in the content backlog — without that step the backlog never learns these posts exist.
+
 ## Oneshot flow
 
 If `--oneshot` is included in the arguments, skip the proposal step:
@@ -98,7 +100,7 @@ If `--oneshot` is included in the arguments, skip the proposal step:
 1. Read article, voice guide, format guide
 2. Identify 2-3 insights and draft posts directly
 3. Save to the posts directory
-4. Present all posts for review
+4. Present all posts for review, with the same `/publish posts` handoff note as the default flow
 
 Same drafting rules, same quality bar. Just no confirmation step in between.
 

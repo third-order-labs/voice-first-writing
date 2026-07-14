@@ -93,6 +93,8 @@ Suggest running `/critical-review` on the saved draft. This is the stranger test
 
 After saving the draft, remind the user: "Read this out loud. Any sentence that feels wrong coming out of your mouth gets cut or rewritten. That's the final filter."
 
+Once the out-loud read passes, name the road ahead so the piece doesn't stall in drafts/: `/review` runs the voice-compliance check and handles the move to the ready directory; from there `/publish` finishes the pipeline (drafts/ → ready/ → published/).
+
 ## If the session ends before the draft is finished
 
 This happens. Articles take multiple sessions. Even posts get interrupted. When the user needs to stop mid-process, save working notes to the bottom of the draft file so `/resume` can pick up where you left off.

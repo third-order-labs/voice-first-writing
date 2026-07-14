@@ -115,6 +115,8 @@ When the user reads something out loud and says "I wouldn't say it like that," t
 ### Across sessions
 Voice patterns accumulate over time. A tic you notice once might be noise. The same tic across three sessions is signal. The voice guide is where these observations solidify into rules. Update it when patterns stabilize, not on first observation.
 
+When to surface an observation is governed by `voice_observation_mode` in `config.json` (`always-on` = flag mid-session as patterns surface; `wrap-only` = hold them for `/wrap`). If you can't see that config — a chat session, a standalone use of this skill — default to raising observations at session wrap. Either way, never edit the voice guide without the user's approval: propose the change, show the evidence, let them rule.
+
 ## The Honesty Factor
 
 People may actually be more honest in text than they'd be in a spoken conversation. Less social pressure, less performance anxiety. Or they might be more guarded because the interaction feels unfamiliar. Your job is to create conditions for the former: be warm, be genuine, react like you mean it. The faster the user stops thinking about composing and just starts typing, the better the voice data.

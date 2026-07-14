@@ -10,6 +10,8 @@ description: First-time setup — walk through workspace creation, voice capture
 
 Welcome sequence for someone using this system for the first time. Walks through the essential setup steps in order.
 
+One mechanical rule: when a step says "run `/quickstart`" (or any other command), load that command's instructions and follow them inline, then come back here and continue from the next step. The sub-commands are chapters of this session, not exits from it — don't end the turn at a handoff.
+
 ## What this does
 
 Gets a new user from zero to ready-to-draft in one session (or across a few sessions). The things that need to exist before the drafting loop works:
@@ -89,7 +91,7 @@ Brief walkthrough of the system:
 
 - **`/draft`** starts a writing session (the main creative workflow — riff on an idea, pull the strongest lines, draft in your voice)
 - **`/flywheel`** generates a cycle of platform posts from web research intersected with what you've been building (reads the tinkering log + your platform strategy)
-- **`tinkering`** captures what you just built, autonomously, wherever you're working — it's the flywheel's primary fuel; you mostly never invoke it, it fires itself
+- **`tinkering`** captures what you just built, autonomously, wherever you're working — it's the flywheel's primary fuel; you mostly never invoke it, it fires itself. One caveat worth saying out loud: it can only fire in sessions where this plugin is loaded. If the plugin is enabled only in this writing workspace, autonomous capture won't happen in the repos where the user actually builds — they should enable the plugin everywhere, or run `/tinkering` manually from other projects.
 - **`/take`** captures a short spicy one-off before it evaporates — minimal shaping, deliberately skips the full process
 - **`/derive`** creates platform posts from finished articles (lower effort, leverages the thinking already done in the article)
 - **`/newsletter`** assembles a periodic newsletter from what you published and built — curated roundup, one insight piece riffed with you, a build-in-public note

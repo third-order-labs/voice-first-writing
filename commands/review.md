@@ -73,3 +73,5 @@ After the full review, summarize:
 If the piece is ready, ask if the user wants to move it to the ready directory (from `config.json`, default: `writings/ready/`). When moving:
 - Strip any `<!-- WORKING NOTES -->` block from the file. Those are drafting artifacts and don't belong in a finished piece.
 - Update the **Status** in the metadata to "Ready".
+
+If the piece needs another pass: present the prioritized issues and suggested edits, then ask which ones the user wants applied — or offer to apply them and confirm before editing. The suggestions are advisory. Where an edit touches the user's own phrasing, ask how they'd say it rather than smoothing it (the writer/critic conflict rules in the writing-process skill apply here too). After revising, re-check the anti-pattern scan and offer the move to ready once it clears. Don't end the session with an edit list and no next move.

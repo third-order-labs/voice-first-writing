@@ -97,6 +97,10 @@ See platform format guides (create one with `/formatguide`). Voice stays consist
 
 Present the voice guide to the person before saving. Ask: "Does this feel like you? What's wrong? What's missing?" Revise based on their feedback, then save.
 
+If you can't write files in this environment (a chat session, say), present the complete guide in your response and tell the user exactly where to save it (the voice guide path in `config.json`, default `writings/voice-guide.md`). A voice guide that only exists in the conversation is lost when the session ends.
+
+Then name the next step — don't leave them with an artifact and no road: a format guide for their platform (`/formatguide <platform>`) if none exists, then `/draft` for the first real session. If this ran inside `/setup`, return there and continue.
+
 ## Important
 
 This is a starter. Tell them: "This is a first pass. It'll get better every time we write together. The drafting process is where the real calibration happens."
