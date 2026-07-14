@@ -81,6 +81,8 @@ Format and structural reference for [platform] content. Separate from the voice 
 
 Present the format guide before saving. Ask: "Does this capture it? Anything wrong or missing?" One round of revisions, then save.
 
+If you can't write files in this environment (a chat session, say), present the full guide in your response and tell the user where to save it (the format guides directory in `config.json`). Then the handoff: they're ready to `/draft` (or `/derive`) for this platform. If this ran inside `/setup`, return there and continue.
+
 ## Important
 
 Keep it light. This is a 10-minute capture, not a deep dive. The format guide will sharpen through actual use — drafting sessions and derivation runs will surface what's missing. Get the foundation down and move on.

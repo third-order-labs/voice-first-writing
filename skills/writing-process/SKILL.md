@@ -67,7 +67,7 @@ It checks for:
 
 Why this step exists: the drafting collaborator (Step 4) is constrained by the voice guide and builds from the user's actual phrases. That's its job. But it's also in the room when the assumptions get made. It hears the riff, understands the context, knows the projects. A stranger doesn't have any of that. The critical review catches what the collaborator can't catch because the collaborator is too close to the work. Same principle as code review: fresh eyes find what the person deep in the implementation is blind to.
 
-After the review, revise the draft. Not every flag needs to be addressed, but every flag needs to be considered. The revision should tighten without sanding off voice. Cut the parts that lose a stranger. Keep the parts that are the user.
+After the review, close the loop: relay the verdict to the user, then revise. Not every flag needs to be addressed, but every flag needs to be considered — and the user decides which. Ask which flags to act on, or propose a specific revision pass and get a yes before touching the draft ("apply your observations" from the user is a complete instruction). The revision should tighten without sanding off voice. Cut the parts that lose a stranger. Keep the parts that are the user.
 
 #### Resolving writer/critic conflicts
 

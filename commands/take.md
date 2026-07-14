@@ -65,6 +65,8 @@ Takes track status in frontmatter, not by folder moves — they never enter the 
 
 **If `schedule <when>`:** parse the time (ISO 8601, the user's timezone unless specified), save with `status: scheduled`, publish with the scheduled timestamp.
 
+**How the held queue drains:** manually — there's no automated drain, and that's by design. When the user posts a held take (or kills it), update its `status` in the frontmatter. The fastest way to ship a parked one later is re-running `/take "<the text>"` once a publishing target is configured. Say this when parking a take so the user knows pickup is on them.
+
 ### 5. Publishing (Typefully target)
 
 When `publishing.target` is `"typefully"`, POST to the Typefully v2 API with credentials from `.env` (`TYPEFULLY_API_KEY`, `TYPEFULLY_SOCIAL_SET_ID`):

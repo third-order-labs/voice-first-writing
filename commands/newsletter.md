@@ -136,6 +136,8 @@ The writer/critic conflict rules from the writing-process skill apply. Common ne
 - **Insight too safe.** If the reviewer says "reasonable but not memorable," push the user for a sharper angle.
 - **Trenches too polished.** If it reads like a project status report, roughen it up.
 
+Revise the draft against the flags per the conflict rules before moving on — Step 5 should hand the user a post-revision draft, not raw reviewer output.
+
 ## Step 5: The User Reviews
 
 Not optional. The newsletter has the user's name on it and includes riff content. They read the full draft, edit the insight section, approve. Move to the ready directory (from `config.json`, default: `writings/ready/`) when approved.

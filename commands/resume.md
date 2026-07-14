@@ -61,3 +61,5 @@ From here, follow the same rules as `/draft` — raw-first, voice guide constrai
 If the session ends before the piece is finished again, update the `<!-- WORKING NOTES -->` block with current state. Overwrite the previous notes, don't stack them.
 
 When the draft is complete and ready for the out-loud read, remove the working notes block. They've served their purpose.
+
+Then the same handoff as `/draft`: suggest `/critical-review` if the piece hasn't had the stranger test yet, and `/review` for voice compliance and the move to ready/.

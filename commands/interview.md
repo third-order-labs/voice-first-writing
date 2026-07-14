@@ -204,6 +204,10 @@ See platform format guides (create one with `/formatguide`). Voice stays consist
 
 Present the full voice guide before saving. Walk through each section: "Does this feel like you? What's wrong? What's missing? What would you change?" This is collaborative, not delivered. Revise based on their feedback, then save.
 
+If you can't write files in this environment (a chat session, say), present the complete guide in your response and tell the user exactly where to save it (the voice guide path in `config.json`, default `writings/voice-guide.md`). Same for the verbatim-quote scratch capture: with no filesystem, keep candidate quotes in a running block in your responses so compaction can't silently paraphrase them.
+
+Then name the next step — don't leave them with an artifact and no road: `/formatguide <platform>` if no format guide exists, then `/draft`. If this ran inside `/setup`, return there and continue.
+
 ## Important
 
 Even a deep interview can't capture everything. Tell them: "This is the best starting point I can build from a conversation. The real refinement happens when we start drafting. Every piece we write together makes this sharper. The system learns from friction — when something sounds wrong to you, that's data."
