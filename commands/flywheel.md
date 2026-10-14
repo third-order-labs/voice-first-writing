@@ -127,11 +127,13 @@ Every build-in-public candidate must pass this check before it gets through to d
 
 > **Would this still be interesting if you stripped the project context?**
 
-The audience doesn't live inside the user's projects. "Built X this week" reads as out-of-nowhere unless the *interesting thing in the build* is portable. Builds are fuel for the observation. The observation is the headline.
+The audience doesn't live inside the user's projects. "Built X this week" reads as out-of-nowhere unless the *interesting thing in the build* is portable. Builds are fuel for the observation. The observation is what the post is about.
 
 - If the interesting thing only works inside one project's framing, kill the candidate.
-- If there's a portable observation embedded — a tension, a generalizable insight, a moment that resonates without the project context — keep it and lead with that observation.
-- "Built X this week" is the cost. The wrinkle in X is the headline.
+- If there's a portable observation embedded (a tension, a generalizable insight, a moment that resonates without the project context), keep it. That observation is the post's subject.
+- "Built X this week" is the cost. The wrinkle in X is the point.
+
+**The gate decides the subject, not the first line.** Passing it does not mean opening on the observation. People telling a story about their own work usually open on the situation and let the point land a few sentences in, or at the end. Read "lead with the observation" as an opener rule and drafts start on a compressed finding, which is a recognizably generated shape. Unless the user's own writing or the register says otherwise, open on what happened and let the observation arrive.
 
 **Exception: artifact posts.** When the strategy doc includes an artifact register — posts where a specific build IS the headline (an architectural choice, a tool that does something genuinely novel) — the gate relaxes. The post must still be legible to a stranger in 2 sentences, but it doesn't need to abstract away from the artifact.
 
