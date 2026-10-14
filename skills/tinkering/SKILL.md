@@ -59,10 +59,21 @@ The default is deliberately global, not per-project: tinkering happens wherever 
 **Project**: [project name or directory name, inferred from current working directory]
 **What**: [2-3 sentences max. What was built, explored, discovered, or tinkered with. Be specific enough that someone reading this in 2 weeks has useful context.]
 **Notable**: [Optional. One sentence. Something that surprised you, broke interestingly, or connects to a bigger idea. Skip this field entirely if nothing stands out.]
+**Said**: [Optional. 1-2 lines the user actually typed this session, verbatim, in quotes. See "The Said field" below. Skip if nothing qualifies.]
 
 ```
 
 Leave a blank line after each entry for readability.
+
+## The Said field
+
+The other fields record what happened. This one records what the user *thought* about it, in their own words, because that's the part the flywheel can't reconstruct later. A draft built on a verbatim line from the user reads like them; a draft built on a project summary reads like a summary.
+
+Pick lines from the user's own messages in this session (never your own output) where they react, wonder, complain, get excited, or think out loud about the work: "Ummmm, soooo, huh, not sure. I feel I want to do more with this but not sure what...." qualifies. Instructions ("run the tests", "fix the import") don't.
+
+- Verbatim. Keep typos, lowercase, "lol", swears, trailing dots. Don't clean it up; the roughness is the point.
+- One or two lines, not a transcript. If nothing qualifies, omit the field. Most entries won't have one.
+- Never include client names, credentials, or anything from a project the user has marked off-limits for content. When unsure, leave it out.
 
 ## Rules
 
